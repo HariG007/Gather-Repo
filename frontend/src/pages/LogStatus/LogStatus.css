@@ -1,0 +1,136 @@
+/* LogStatus.css */
+
+/* Set the color palette */
+:root {
+  --primary-color: #221429;
+}
+
+.contain {
+  display: block;
+  margin-left: 20px;
+  font-family: 'Public Sans', sans-serif;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+/* Style for DataTable */
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Header Styles */
+.dataTable thead {
+  background-color: var(--primary-color);
+}
+
+.dataTable th {
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+}
+
+/* Body Styles */
+.dataTable tbody {
+  background-color: #fff;
+}
+
+.dataTable td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Highlight on Hover */
+.dataTable tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-item {
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Search Input Style */
+.w-25 {
+  width: 25% !important;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dataTable thead {
+    display: none;
+  }
+
+  .dataTable tbody td {
+    display: block;
+    text-align: center;
+  }
+
+  .dataTable tbody tr {
+    margin-bottom: 10px;
+  }
+}
+
+/* Breadcrumbs Styles */
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.breadcrumbs span {
+  margin: 0 5px;
+  color: #333;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Back Button Styles */
+.back-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

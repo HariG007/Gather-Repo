@@ -1,0 +1,67 @@
+.mount-div{
+    margin-bottom: 200px;
+}
+
+/* Styles for the container */
+.containe {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 ;
+  }
+  
+  /* Styles for the labels */
+  .label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Styles for text input fields */
+  .text-input {
+    padding-top: 10px;
+    margin-bottom: 12px;
+    padding: 0px 0px 0px 0px;
+   
+  }
+  
+  /* Styles for the select dropdown */
+  .select {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  /* Styles for the form submit button */
+  .subscribe-button:hover{
+    transition: 0.6s;
+    background-color:gray;
+  }
+  .subscribe-button {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: #fff; /* White text color */
+    background-color: darkblue;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 210px;
+    cursor: pointer;
+  }
+  
+  /* Breadcrumbs Styles */
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.breadcrumbs span {
+  margin: 0 5px;
+  color: #333;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

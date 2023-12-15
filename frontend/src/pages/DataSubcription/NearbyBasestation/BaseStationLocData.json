@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Base Station 1", "location": { "latitude": 11.0168, "longitude": 76.9558 } },
+    { "id": 2, "name": "Base Station 2", "location": { "latitude": 11.0169, "longitude": 76.9557 } }
+   
+]

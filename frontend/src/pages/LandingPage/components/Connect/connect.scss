@@ -1,0 +1,48 @@
+@import "../../vendors/mixins";
+@import "../../vendors/variables";
+
+.home-connect {
+    background-color: whitesmoke;
+    background-position: center center;
+    padding: 80px 30px;
+    @include flexCenter;
+    flex-direction: column;
+
+    h3 {
+        font-size: 21px;
+        color: black;
+        font-weight: 400;
+        margin-bottom: 1em;
+        line-height: 1.5;
+    }
+
+    .connections {
+        @include flexCenter;
+        gap: 8px;
+        flex-wrap: wrap;
+
+        .connect-button {
+            padding: 13px;
+            background-color: white;
+            color: #000;
+            border: 0;
+            outline: 0;
+            flex-wrap: wrap;
+
+            @media(max-width: 767px) {
+                padding: 10px;
+            }
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            &:hover {
+                background-color: whitesmoke;
+                padding: 10px;
+                transition: 0.3s;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+/* Resetting some default styles */
+
+/* Global styles */
+html {
+    font-size: 16px;
+}
+
+/* Container styles */
+.container-xl {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1300px; /* Adjust max-width based on your preference */
+}
+
+/* Header styles */
+.card-header {
+    width: 100%;
+    background-color: white;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 1.35rem;
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #495057;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle box shadow */
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: white;
+    color:darkblue;
+    transition: background-color 0.3s ease; /* Add transition for background color change */
+}
+
+.table th:hover {
+    background-color: whitesmoke; /* Darken background color on hover */
+}
+
+/* Badge styles */
+.badge {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for badge color change */
+}
+
+/* Pending badge */
+.badge.bg-light.text-dark {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Paid badge */
+.badge.bg-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #495057;
+        border-collapse: collapse;
+    }
+
+    .table th,
+    .table td {
+        white-space: nowrap;
+    }
+}

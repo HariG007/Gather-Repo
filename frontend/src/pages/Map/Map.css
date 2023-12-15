@@ -1,0 +1,123 @@
+/* Map container styles */
+.mapContainer {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  /* CSS */
+.topCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Map styles */
+  .mapDiv {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #36376b; /* Adjust border properties */
+  }
+  
+  /* Coordinates card styles */
+  .coordinatesCard {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Coordinates inputs styles */
+  .coordinatesInputs {
+    margin-top: 20px;
+  }
+  
+  .mapContainer {
+    padding: 20px;
+  }
+  
+  .mapDiv {
+    height: 100%; /* Adjust the height as needed */
+    width: 100%;
+  }
+  
+  .coordinatesCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .coordinatesCard h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .jsonCoordinates {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .jsonCoordinates p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .distanceAndAccuracyCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .distanceAndAccuracyCard h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .distanceAndAccuracyCard p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .updateButton {
+    color: #fff;
+    padding-top: 10px;
+    width: 100%;
+    border-radius: 7px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    background-color: darkblue;
+  }
+  .updateButton:hover{
+    transition: 0.6s;
+    background-color: #666;
+  }
+  /* Breadcrumbs Styles */
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.breadcrumbs span {
+  margin: 0 5px;
+  color: #333;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .needtocenter{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  .containers {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    box-shadow: 0 12px 18px rgba(54, 176, 138, 0.005);
+    border-radius: 6px;
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  .login-link {
+    height: 100%;
+    background-color: darkblue;
+    background-image: url('bg-shapes.svg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo svg {
+    margin-right: 8px;
+  }
+  
+  .side-big-heading {
+    margin-top: 10px;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .primary-bg-text {
+    color: #eff0ff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .signup-form-container {
+    width: 100%;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add these styles to center-align the login form within the container */
+  .login-form-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 3%;
+  }
+  
+  .login-form-contents .text-fields {
+    margin: 3% 0; /* Adjust margin */
+    width: 70%;
+    padding: 3%;
+  }
+  
+  .login-form-contents .text-fields.email:after {
+    left: auto; /* Remove the fixed left value */
+    margin-left: 4%; /* Add margin-left to adjust position */
+  }
+  
+  /* Optional: You can add responsive styles if needed */
+  @media screen and (max-width: 768px) {
+    .login-form-contents .text-fields {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  }
+  /* ... Your existing CSS ... */
+
+/* Add these media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+    .containers {
+      flex-direction: column;
+    }
+  
+    .login-link {
+      width: 100%;
+      align-items: flex-start;
+      padding: 5%;
+    }
+  
+    .side-big-heading {
+      font-size: 1.8rem;
+    }
+  
+    .signup-form-container {
+      width: 100%;
+      padding: 5% 0;
+    }
+  
+    .login-form-contents .text-fields {
+      width: 80%;
+    }
+  }
+  
+a.loginbtn{
+    text-decoration: none;
+    color: #fff;
+    width: 70%;
+    font-weight: 500;
+    display: inline-block;
+    margin: 5%;
+    text-align: center;
+    border: 2px solid #eff0ff;
+    border-radius: 24px;
+    padding: 3%;
+}
+a.loginbtn:hover{
+    color: darkblue;
+    background-color: #fff;
+}
+  @media screen and (max-width: 768px) {
+    .login-link {
+      padding: 8%;
+    }
+  
+    .side-big-heading {
+      font-size: 1.5rem;
+    }
+  
+    .primary-bg-text {
+      font-size: 14px;
+    }
+  
+    .login-form-contents .text-fields {
+      width: 90%;
+    }
+  }
+  
+  /* Optional: Add more media queries for smaller screens if needed */
+  

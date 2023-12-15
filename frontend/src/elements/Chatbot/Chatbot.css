@@ -1,0 +1,26 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed */
+    padding-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .chatbot-header {
+    font-weight: bold;
+    background-color: darkblue;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  .close-button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }

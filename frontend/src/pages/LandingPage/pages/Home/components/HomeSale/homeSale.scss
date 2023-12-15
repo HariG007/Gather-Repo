@@ -1,0 +1,34 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.sale-content {
+    background-color: #f0f0f0;
+    background-image: url(https://images.unsplash.com/photo-1460186136353-977e9d6085a1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 293px;
+    @include flexCenter;
+    max-width:100%;
+
+    @media(max-width: 767px) {
+        height: 234px;
+    }
+
+    .sale-title {
+        gap: 8px;
+        width: 80%;
+
+        @media(max-width: 767px) {
+            align-items: center;
+        }
+
+        h2 {
+            color: #ffffff;
+        }
+
+        h3 {
+            color: $main-color;
+        }
+    }
+}

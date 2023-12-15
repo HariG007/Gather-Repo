@@ -1,0 +1,74 @@
+/* Add this CSS to your existing stylesheet */
+
+/* Base styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-inline-start: 100px;
+  gap: 10px;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputForm {
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.input {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 85%;
+  height: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputForm:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .form {
+    margin-inline-start: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form {
+    margin-inline-start: 0;
+  }
+
+  .inputForm {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .button-submit {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
